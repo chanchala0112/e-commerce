@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - KMC Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+
+  <style>
+    body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+}
+
+.login-container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+    .div .login-container{
+    background-position: center;
+}
+
+.login-container {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0a1f44;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .input-box i {
+    font-size: 20px;
+    color: #0a1f44;
+    margin-right: 10px;
+  }
+  
+  .input-box input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    background: #0a1f44;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+  
+  .login-btn:hover {
+    background: #ffcc00;
+    color: #111;
+  }
+  
+  .text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .text a {
+    color: #0a1f44;
+    text-decoration: none;
+  }
+  .text a:hover {
+    text-decoration: underline;
+  }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <form class="login-form">
+      <h2>Login to KMC Shop</h2>
+
+      <div class="input-box">
+        <i class='bx bx-user'></i>
+        <input type="text" placeholder="Username" required>
+      </div>
+
+      <div class="input-box">
+        <i class='bx bx-lock'></i>
+        <input type="password" placeholder="Password" required>
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+
+      
+      <p class="text">Don't have an account? <a href="registration.html">Register</a></p>
+    </form>
+  </div>
+
+</body>
+</html>

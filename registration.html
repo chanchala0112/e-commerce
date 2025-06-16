@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+       * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+  }
+  
+  body {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .registration-container {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ff6f00;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .input-box i {
+    font-size: 20px;
+    color: #ff6f00;
+    margin-right: 10px;
+  }
+  
+  .input-box input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .register-btn {
+    width: 100%;
+    background: #ff6f00;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .register-btn:hover {
+    background: #e65c00;
+  }
+  
+  .text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .text a {
+    color: #ff6f00;
+    text-decoration: none;
+  }
+  
+  .text a:hover {
+    text-decoration: underline;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="registration-container">
+    <form class="registration-form">
+      <h2>Create Account</h2>
+
+      <div class="input-box">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Full Name" required>
+      </div>
+
+      <div class="input-box">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="Email Address" required>
+      </div>
+
+      <div class="input-box">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Password" required>
+      </div>
+
+      <button type="submit" class="register-btn">Register</button>
+
+      <p class="text">Already have an account? <a href="login.html">Login</a></p>
+      
+    </form>
+  </div>
+</body>
+</html>
